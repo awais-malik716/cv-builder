@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    background-image: url(images/City-skyscape.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* INPUTS/BUILDER */
+
+#builder{
+    width: 88%;
+    padding: 2% 30px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 4% 0px;
+}
+
+input{
+    width: 200px;
+    padding: 5px;
+    outline: none;
+    font-size: 1em;
+    color: slategray;
+    border: none;
+    border-bottom: 2px solid black;
+    transition: 400ms;
+}
+input:focus{
+    border-bottom: 2px solid brown;
+    transition: 500ms;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 5px lightslategray;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#personal-info-tag{
+    border-bottom: 2px solid red;
+    width: 320px;
+}
+
+.dob{
+    width: 70px;
+}
+
+#builder>div{
+    margin: 20px 0px;
+}
+#builder>div input{
+    display: block;
+    margin: 5px 0px;
+}
+
+#martial-status input{
+    width: 20px;
+}
+
+#gender input{
+    width: 20px;
+}
+
+#personal-discription-input{
+    height: 100px;
+}
+
+textarea{
+    display: block;
+}
+
+#cv-button{
+    width: 120px;
+    height:50px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    outline: none;
+    transition: 500ms;
+}
+#cv-button:hover{
+    background-color: blue;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+
+#adress-output{
+    display: flex;
+    width: auto;;
+}
+
+#male-radio, #female-radio, #single-radio, #ralationship-radio, #married-radio{
+    width: 30px;
+    outline: none;
+    border: none;
+}
+
+/* OUTPUT/CV */
+
+#cv{
+    width: 88%;
+    padding: 2% 30px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 4% 0px;
+}
+
+#profile{
+    display: flex;
+    justify-content: flex-start;
+    /* width: 1140px; */
+    /* padding: 30px; */
+    background-color: #e0f5ff;
+    padding: 10px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#profile-image{
+    width: 200px;
+    height: 200px;
+}
+img{
+    width: 180px;
+    outline: 2px solid black;
+    border: 2px solid white;
+}
+#cv p{
+    border-block-end: 1px solid #c6c5c6;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: auto;
+    padding: 10px;
+    margin: 0px;
+    font-size: 1em;
+}
+
+#profile-name{
+    padding: 5px;
+    
+}
