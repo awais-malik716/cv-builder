@@ -4,4 +4,4 @@
 
 
 
-https://awais-malik716.github.io/cv-builder/
+https://beingawaisali.github.io/cv-builder/
