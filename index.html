@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>CV Builder</title>
+    <title>CV Builder - Build Your CV in a Step</title>
 </head>
 
 <body>
@@ -87,12 +87,12 @@
                 <br>
             </div>
             <div>
-                <p>Personal Discription:</p>
+                <p>Personal Description:</p>
                 <textarea id="personal-discription-input" rows="3" cols="30"></textarea>
             </div>
 
 
-            <button id="cv-button" onclick="buildCV()">Build CV</button>
+            <button class="cv-button" onclick="buildCV()">Build CV</button>
         </section>
 
         <!-- CV BUILDER OUTPUTS -->
@@ -110,7 +110,9 @@
                 </div>
             </div>
             <div id="personal-info">
-                <p id="fathers-name-output"></p>
+                <p>
+                    Father's Name: <span id="fathers-name-output"></span>
+                </p>
                 <p id="gender-output"></p>
                 <p id="dob-output">Date Of Birth: 
                     <strong id="date-of-birth"></strong>
@@ -135,8 +137,12 @@
                     </ul>
                 </p>
                 <p id="personal-discription-output"></p>
+
+            <button class="cv-button" id="go-back" onclick="goBack()">Go Back</button>
+
             </div>
         </section>
+
 
         <script src="script.js"></script>
     </main>

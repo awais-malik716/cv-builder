@@ -100,10 +100,8 @@ function buildCV() {
         martialStatus.innerHTML = ("Martial Status : Married");
     }
 
+}
 
-    
-
-
-
-
+function goBack() {
+    location.reload();
 }
